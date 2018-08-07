@@ -57,7 +57,11 @@ In this task, you are going to begin learning how to **style** your webpages usi
     - `top: 40px;`
     - This has moved your div on the screen!
 
-That's it for `helloCss.inline.html`! Now we're going to take a couple steps to **improve** our CSS.
+That's it for `helloCss.inline.html`! It should look something like this:
+
+![helloCss example](./3_helloCss.png "helloCss example")
+
+Now we're going to take a couple steps to **improve** our CSS.
 
 ## Steps (Stylesheet version)
 
