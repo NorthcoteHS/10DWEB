@@ -33,12 +33,12 @@ In this task, you are going to begin learning how to **style** your webpages usi
     - `font-family: Arial, sans-serif;`
     - `border: 1px solid black;`
     - `margin-left: 20px;`
-    - `opacity: 0.5;`
     - `display: none;` (Where did it go??)
+    - `opacity: 0.5;`
     - `visibility: hidden;` (How is this different from `display: none;`?)
-    - `cursor: grab;` (Notice what happens to your mouse when you hover over!)
+    - `cursor: not-allowed;` (Notice what happens to your mouse when you hover over!)
     - `text-decoration: line-through;`
-    - `direction: rtl;`
+    - `unicode-bidi: bidi-override; direction: rtl;` (Notice we're changing two styles at once)
 
 5. Now modify your main div to have all of these styles (and also keep its red background):
 
