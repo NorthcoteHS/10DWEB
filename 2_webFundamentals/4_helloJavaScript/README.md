@@ -19,7 +19,7 @@ In this task, you are going to begin learning how to program **behaviour** for y
 
 3. Inside the body, make a new `<script>` tag:
 
-    ```js
+    ```html
     <body>
         <script>
         </script>
@@ -29,7 +29,7 @@ In this task, you are going to begin learning how to program **behaviour** for y
 
 4. We are going to look at three ways to say "Hello" with JavaScript. The first is with a command called `alert()` - copy this code, then save and refresh to see what happens:
 
-    ```js
+    ```html
     <script>
         alert('Hello, world!');
     </script>
@@ -41,7 +41,7 @@ In this task, you are going to begin learning how to program **behaviour** for y
     - Sometimes we want the computer to ignore a line of code - usually so that we can write a human-readable note about what the code is doing.
     - We call these "comments". We tell the computer to ignore a line of JS code by starting the line with `//`, or by surrounding a chunk of code (even multiple lines) with `/*` and `*/`.
     - Now, copy this comment into your code:
-    ```js
+    ```html
     <script>
         // Method 1: Alert.
         alert('Hello, world!');
@@ -51,7 +51,7 @@ In this task, you are going to begin learning how to program **behaviour** for y
 
 6. **Method 2:** `alert()` is easy but popups can be annoying. If we want a "quiet" message that only developers will see, we can use `console.log()`. Try it:
 
-    ```js
+    ```html
     <script>
         // Method 2: Console.log.
         console.log('Hello, world!');
@@ -70,7 +70,7 @@ In this task, you are going to begin learning how to program **behaviour** for y
     - Then use the JavaScript command `document.getElementById("target")` to get a *pointer* to that `<p>` element, based on its ID.
     - Finally, we can change the `<p>` element's text by setting its `.innerHTML` property to `'Hello, World!'`
     - Putting that all together:
-    ```js
+    ```html
     <body>
         <p id="target"></p>
         <script>
@@ -86,7 +86,7 @@ In this task, you are going to begin learning how to program **behaviour** for y
 We have looked at three different ways to display text to the user. Next is a brief introduction to *logic* - that is, having the computer make decisions.
 
 1. Earlier we looked at each display method individually. Now, put all three back into your code:
-    ```js
+    ```html
     <script>
         // Method 1: Alert.
         alert('Hello, world!');
@@ -103,7 +103,7 @@ We have looked at three different ways to display text to the user. Next is a br
 
     - In JavaScript we *create* a variable with the `var` keyword, and *set* it to a value using `=`.
     - Create a variable in your script called `method` with the value `"console"`:
-    ```js
+    ```html
     <script>
         var method = "console";
         // Method 1: Alert.
@@ -114,7 +114,7 @@ We have looked at three different ways to display text to the user. Next is a br
 3. Another central concept in programming is the **if statement**. It tells a computer to run a piece of code *if (and only if)* some condition is true.
 
     - We can now create if statements to run the method we've chosen with `method`:
-    ```js
+    ```html
     <script>
         var method = "console";
         // Method 1: Alert.
