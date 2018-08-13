@@ -140,7 +140,7 @@ We have looked at three different ways to display text to the user. Next is a br
 
 4. That's it! You can now change the value of `method` in your code between `"alert"`, `"console"`, and `"innerHTML"`, and it should use your chosen method.
 
-### Extension
+## Extension
 
 There are three main extension tasks for this assignment:
 
