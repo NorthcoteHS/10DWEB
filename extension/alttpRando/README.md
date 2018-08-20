@@ -37,70 +37,69 @@ There is a *lot* of information to handle for this project:
 
 Note that every location has a zone and requirements - to get the item, you must be able to access that zone *and* have all the other requirements. The logic is often complicated, with ands and ors.
 
-
 #### Items
 | Item | Image |
 |------|-------|
-| Fighter Sword | ![Fighter Sword][sword] |
-| Master Sword | ![Master Sword][sword2] |
-| Moon Pearl | ![Moon Pearl][moonpearl] |
-| Bow | ![Bow][bow] |
-| Silver Arrows | ![Silver Arrows][silver] |
-| Hookshot | ![Hookshot][hookshot] |
-| Mushroom | ![Mushroom][mushroom] |
-| Magic Powder | ![Magic Powder][powder] |
-| Fire Rod | ![Fire Rod][firerod] |
-| Ice Rod | ![Ice Rod][icerod] |
-| Bombos Medallion | ![Bombos Medallion][bombos] |
-| Ether Medallion | ![Ether Medallion][ether] |
-| Quake Medallion | ![Quake Medallion][quake] |
-| Lantern | ![Lantern][lantern] |
-| Hammer | ![Hammer][hammer] |
-| Shovel | ![Shovel][shovel] |
-| Book of Mudora | ![Book of Mudora][book] |
-| Bottle | ![Bottle][bottle] |
-| Cane of Somaria | ![Cane of Somaria][somaria] |
-| Cane of Byrna | ![Cane of Byrna][byrna] |
-| Magic Cape | ![Magic Cape][cape] |
-| Magic Mirror | ![Magic Mirror][mirror] |
-| Pegasus Boots | ![Pegasus Boots][boots] |
-| Power Glove | ![Power Glove][glove] |
-| Titan's Mitt | ![Titan's Mitt][glove2] |
-| Zora's Flippers | ![Zora's Flippers][flippers] |
-| Flute | ![Flute][flute] |
+| Fighter Sword | <img src="./img/sword1.png" alt="Fighter Sword" height="20px"> |
+| Master Sword | <img src="./img/sword2.png" alt="Master Sword" height="20px"> |
+| Moon Pearl | <img src="./img/moonpearl.png" alt="Moon Pearl" height="20px"> |
+| Bow | <img src="./img/bow.png" alt="Bow" height="20px"> |
+| Silver Arrows | <img src="./img/silver.png" alt="Silver Arrows" height="20px"> |
+| Hookshot | <img src="./img/hookshot.png" alt="Hookshot" height="20px"> |
+| Mushroom | <img src="./img/mushroom.png" alt="Mushroom" height="20px"> |
+| Magic Powder | <img src="./img/powder.png" alt="Magic Powder" height="20px"> |
+| Fire Rod | <img src="./img/firerod.png" alt="Fire Rod" height="20px"> |
+| Ice Rod | <img src="./img/icerod.png" alt="Ice Rod" height="20px"> |
+| Bombos Medallion | <img src="./img/bombos.png" alt="Bombos Medallion" height="20px"> |
+| Ether Medallion | <img src="./img/ether.png" alt="Ether Medallion" height="20px"> |
+| Quake Medallion | <img src="./img/quake.png" alt="Quake Medallion" height="20px"> |
+| Lantern | <img src="./img/lantern.png" alt="Lantern" height="20px"> |
+| Hammer | <img src="./img/hammer.png" alt="Hammer" height="20px"> |
+| Shovel | <img src="./img/shovel.png" alt="Shovel" height="20px"> |
+| Book of Mudora | <img src="./img/book.png" alt="Book of Mudora" height="20px"> |
+| Bottle | <img src="./img/bottle.png" alt="Bottle" height="20px"> |
+| Cane of Somaria | <img src="./img/somaria.png" alt="Cane of Somaria" height="20px"> |
+| Cane of Byrna | <img src="./img/byrna.png" alt="Cane of Byrna" height="20px"> |
+| Magic Cape | <img src="./img/cape.png" alt="Magic Cape" height="20px"> |
+| Magic Mirror | <img src="./img/mirror.png" alt="Magic Mirror" height="20px"> |
+| Pegasus Boots | <img src="./img/boots.png" alt="Pegasus Boots" height="20px"> |
+| Power Glove | <img src="./img/glove1.png" alt="Power Glove" height="20px"> |
+| Titan's Mitt | <img src="./img/glove2.png" alt="Titan's Mitt" height="20px"> |
+| Zora's Flippers | <img src="./img/flippers.png" alt="Zora's Flippers" height="20px"> |
+| Flute | <img src="./img/flute.png" alt="Flute" height="20px"> |
 
 #### Areas
 | Area | Code | Requirements |
 |------|-------|--------------|
 | Light World | light |  |
-| Death Mountain - Left | mount_left | (glove1 ![lantern][lantern]  or ![flute][flute]) |
-| Death Mountain - Top | mount_top | mount_left (![mirror][mirror] or ![hookshot][hookshot] ![hammer][hammer] ) |
-| Death Mountain - Right | mount_right | mount_left (![hookshot][hookshot] or ![mirror][mirror] ![hammer][hammer] ) |
-| Death Mountain - Dark World | mount_dark | mount_right ![moonpearl][moonpearl] ![glove2][glove2]  |
-| Dark World - North | dark_north | ![moonpearl][moonpearl] (![glove2][glove2] or glove1 ![hammer][hammer]  or agahnim ![hookshot][hookshot] (![hammer][hammer] or glove1 or ![flippers][flippers])) |
-| Dark World - South | dark_south | ![moonpearl][moonpearl] (dark_north or agahnim ![hammer][hammer] ) |
-| Dark World - East | dark_east | ![moonpearl][moonpearl] (agahnim or glove1 ![hammer][hammer]  or ![glove2][glove2] ![flippers][flippers] ) |
-| Misery Mire Area | mire_zone | ![flute][flute] ![glove2][glove2]  |
+| Death Mountain - Left | mount_left | (<img src="./img/glove1.png" alt="glove1" height="20px"> <img src="./img/lantern.png" alt="lantern" height="20px">  or <img src="./img/flute.png" alt="flute" height="20px">) |
+| Death Mountain - Top | mount_top | mount_left (<img src="./img/mirror.png" alt="mirror" height="20px"> or <img src="./img/hookshot.png" alt="hookshot" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px"> ) |
+| Death Mountain - Right | mount_right | mount_left (<img src="./img/hookshot.png" alt="hookshot" height="20px"> or <img src="./img/mirror.png" alt="mirror" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px"> ) |
+| Death Mountain - Dark World | mount_dark | mount_right <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> <img src="./img/glove2.png" alt="glove2" height="20px">  |
+| Dark World - North | dark_north | <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> (<img src="./img/glove2.png" alt="glove2" height="20px"> or <img src="./img/glove1.png" alt="glove1" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px">  or agahnim <img src="./img/hookshot.png" alt="hookshot" height="20px"> (<img src="./img/hammer.png" alt="hammer" height="20px"> or <img src="./img/glove1.png" alt="glove1" height="20px"> or <img src="./img/flippers.png" alt="flippers" height="20px">)) |
+| Dark World - South | dark_south | <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> (dark_north or agahnim <img src="./img/hammer.png" alt="hammer" height="20px"> ) |
+| Dark World - East | dark_east | <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> (agahnim or <img src="./img/glove1.png" alt="glove1" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px">  or <img src="./img/glove2.png" alt="glove2" height="20px"> <img src="./img/flippers.png" alt="flippers" height="20px"> ) |
+| Misery Mire Area | mire_zone | <img src="./img/flute.png" alt="flute" height="20px"> <img src="./img/glove2.png" alt="glove2" height="20px">  |
 
 #### Encounters
 | Encounter | Code | Requirements |
 |-----------|-------|--------------|
-| Agahnim | agahnim | ![lantern][lantern] (![sword2][sword2] or sword1 ![cape][cape] ) |
+| Agahnim | agahnim | <img src="./img/lantern.png" alt="lantern" height="20px"> (<img src="./img/sword2.png" alt="sword2" height="20px"> or <img src="./img/sword1.png" alt="sword1" height="20px"> <img src="./img/cape.png" alt="cape" height="20px"> ) |
 
 #### Dungeons
 | Dungeon | # of Items | Zone | Entry Requirements | Completion Requirements |
 |---------|------------|------|--------------------|-------------------------|
-| Eastern Palace | 3 | light |  | ![bow][bow] ![lantern][lantern]  |
-| Desert Palace | 2 | light | (![book][book] or mire_zone ![mirror][mirror] ) | glove1 ![boots][boots] (![lantern][lantern] or ![firerod][firerod]) |
-| Tower of Hera | 2 | mount_top |  | (![lantern][lantern] or ![firerod][firerod]) |
-| Palace of Darkness | 5 | dark_east |  | ![bow][bow] ![lantern][lantern] ![hammer][hammer]  |
-| Swamp Palace | 6 | dark_south | ![mirror][mirror] ![flippers][flippers]  | ![hammer][hammer] ![hookshot][hookshot]  |
-| Skull Woods | 2 | dark_north |  | ![firerod][firerod]  |
-| Thieves' Town | 4 | dark_north |  | ![hammer][hammer]  |
-| Ice Palace | 3 | dark_east | ![flippers][flippers] ![glove2][glove2] (![firerod][firerod] or ![bombos][bombos] sword1 ) | ![hammer][hammer] (![hookshot][hookshot] or ![somaria][somaria]) |
-| Misery Mire | 2 | mire_zone | (![hookshot][hookshot] or ![boots][boots]) | ![somaria][somaria] ![lantern][lantern]  |
-| Turtle Rock | 5 | mount_dark | ![glove2][glove2] ![hammer][hammer] ![somaria][somaria]  | ![lantern][lantern] ![firerod][firerod] ![icerod][icerod]  |
-| Ganon's Tower | 20 | mount_dark | all_crystals  | ![boots][boots] ![hammer][hammer] ![hookshot][hookshot] ![somaria][somaria] ![firerod][firerod] ![bow][bow] ![silver][silver]  |
+| Eastern Palace | 3 | light |  | <img src="./img/bow.png" alt="bow" height="20px"> <img src="./img/lantern.png" alt="lantern" height="20px">  |
+| Desert Palace | 2 | light | (<img src="./img/book.png" alt="book" height="20px"> or mire_zone <img src="./img/mirror.png" alt="mirror" height="20px"> ) | <img src="./img/glove1.png" alt="glove1" height="20px"> <img src="./img/boots.png" alt="boots" height="20px"> (<img src="./img/lantern.png" alt="lantern" height="20px"> or <img src="./img/firerod.png" alt="firerod" height="20px">) |
+| Tower of Hera | 2 | mount_top |  | (<img src="./img/lantern.png" alt="lantern" height="20px"> or <img src="./img/firerod.png" alt="firerod" height="20px">) |
+| Palace of Darkness | 5 | dark_east |  | <img src="./img/bow.png" alt="bow" height="20px"> <img src="./img/lantern.png" alt="lantern" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px">  |
+| Swamp Palace | 6 | dark_south | <img src="./img/mirror.png" alt="mirror" height="20px"> <img src="./img/flippers.png" alt="flippers" height="20px">  | <img src="./img/hammer.png" alt="hammer" height="20px"> <img src="./img/hookshot.png" alt="hookshot" height="20px">  |
+| Skull Woods | 2 | dark_north |  | <img src="./img/firerod.png" alt="firerod" height="20px">  |
+| Thieves' Town | 4 | dark_north |  | <img src="./img/hammer.png" alt="hammer" height="20px">  |
+| Ice Palace | 3 | dark_east | <img src="./img/flippers.png" alt="flippers" height="20px"> <img src="./img/glove2.png" alt="glove2" height="20px"> (<img src="./img/firerod.png" alt="firerod" height="20px"> or <img src="./img/bombos.png" alt="bombos" height="20px"> <img src="./img/sword1.png" alt="sword1" height="20px"> ) | <img src="./img/hammer.png" alt="hammer" height="20px"> (<img src="./img/hookshot.png" alt="hookshot" height="20px"> or <img src="./img/somaria.png" alt="somaria" height="20px">) |
+| Misery Mire | 2 | mire_zone | (<img src="./img/hookshot.png" alt="hookshot" height="20px"> or <img src="./img/boots.png" alt="boots" height="20px">) | <img src="./img/somaria.png" alt="somaria" height="20px"> <img src="./img/lantern.png" alt="lantern" height="20px">  |
+| Turtle Rock | 5 | mount_dark | <img src="./img/glove2.png" alt="glove2" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px"> <img src="./img/somaria.png" alt="somaria" height="20px">  | <img src="./img/lantern.png" alt="lantern" height="20px"> <img src="./img/firerod.png" alt="firerod" height="20px"> <img src="./img/icerod.png" alt="icerod" height="20px">  |
+| Ganon's Tower | 20 | mount_dark | all_crystals  | <img src="./img/boots.png" alt="boots" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px"> <img src="./img/hookshot.png" alt="hookshot" height="20px"> <img src="./img/somaria.png" alt="somaria" height="20px"> <img src="./img/firerod.png" alt="firerod" height="20px"> <img src="./img/bow.png" alt="bow" height="20px"> <img src="./img/silver.png" alt="silver" height="20px">  |
 
 #### Locations
 | Location | # of Items | Zone | Requirements |
@@ -108,93 +107,65 @@ Note that every location has a zone and requirements - to get the item, you must
 | Master Sword Pedestal | 1 | light | pendant0 pendant1 pendant2  |
 | Mushroom | 1 | light |  |
 | Forest Hideout | 1 | light |  |
-| Lumberjack Tree | 1 | light | agahnim ![boots][boots]  |
-| Lost Old Man | 1 | mount_left | ![lantern][lantern]  |
+| Lumberjack Tree | 1 | light | agahnim <img src="./img/boots.png" alt="boots" height="20px">  |
+| Lost Old Man | 1 | mount_left | <img src="./img/lantern.png" alt="lantern" height="20px">  |
 | Spectacle Rock Cave | 1 | mount_left |  |
-| Spectacle Rock | 1 | mount_left | ![mirror][mirror]  |
-| Ether Tablet | 1 | mount_top | ![sword2][sword2] ![book][book]  |
+| Spectacle Rock | 1 | mount_left | <img src="./img/mirror.png" alt="mirror" height="20px">  |
+| Ether Tablet | 1 | mount_top | <img src="./img/sword2.png" alt="sword2" height="20px"> <img src="./img/book.png" alt="book" height="20px">  |
 | Paradox Cave | 7 | mount_right |  |
 | Spiral Cave | 1 | mount_right |  |
-| Floating Island | 1 | mount_dark | ![mirror][mirror]  |
-| Mimic Cave | 1 | turtle | ![mirror][mirror]  |
-| Pegasus Rocks | 1 | light | ![boots][boots]  |
-| Graveyard Ledge Cave | 1 | dark_north | ![mirror][mirror]  |
-| King's Tomb | 1 | dark_north | ![boots][boots] (![glove2][glove2] or ![mirror][mirror]) |
-| Witch | 1 | light | ![mushroom][mushroom]  |
-| Waterfall of Wishing | 2 | light | ![flippers][flippers]  |
-| King Zora | 1 | light | (![flippers][flippers] or glove1) |
-| Zora River Ledge | 1 | light | ![flippers][flippers]  |
+| Floating Island | 1 | mount_dark | <img src="./img/mirror.png" alt="mirror" height="20px">  |
+| Mimic Cave | 1 | turtle | <img src="./img/mirror.png" alt="mirror" height="20px">  |
+| Pegasus Rocks | 1 | light | <img src="./img/boots.png" alt="boots" height="20px">  |
+| Graveyard Ledge Cave | 1 | dark_north | <img src="./img/mirror.png" alt="mirror" height="20px">  |
+| King's Tomb | 1 | dark_north | <img src="./img/boots.png" alt="boots" height="20px"> (<img src="./img/glove2.png" alt="glove2" height="20px"> or <img src="./img/mirror.png" alt="mirror" height="20px">) |
+| Witch | 1 | light | <img src="./img/mushroom.png" alt="mushroom" height="20px">  |
+| Waterfall of Wishing | 2 | light | <img src="./img/flippers.png" alt="flippers" height="20px">  |
+| King Zora | 1 | light | (<img src="./img/flippers.png" alt="flippers" height="20px"> or <img src="./img/glove1.png" alt="glove1" height="20px">) |
+| Zora River Ledge | 1 | light | <img src="./img/flippers.png" alt="flippers" height="20px">  |
 | Kakariko Well | 5 | light |  |
 | Blind's Hideout | 5 | light |  |
 | Bottle Vendor | 1 | light |  |
 | Chicken House | 1 | light |  |
-| Sick Kid | 1 | light | ![bottle][bottle]  |
+| Sick Kid | 1 | light | <img src="./img/bottle.png" alt="bottle" height="20px">  |
 | Tavern | 1 | light |  |
-| Blacksmith | 1 | light | ![moonpearl][moonpearl] ![glove2][glove2]  |
-| Magic Bat | 1 | light | ![powder][powder] (![hammer][hammer] or ![mirror][mirror] ![glove2][glove2] ![moonpearl][moonpearl] ) |
+| Blacksmith | 1 | light | <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> <img src="./img/glove2.png" alt="glove2" height="20px">  |
+| Magic Bat | 1 | light | <img src="./img/powder.png" alt="powder" height="20px"> (<img src="./img/hammer.png" alt="hammer" height="20px"> or <img src="./img/mirror.png" alt="mirror" height="20px"> <img src="./img/glove2.png" alt="glove2" height="20px"> <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> ) |
 | Sahasrahla's Hut | 3 | light |  |
 | Sahasrahla | 1 | light | pendant0  |
 | Race Minigame | 1 | light |  |
-| Library | 1 | light | ![boots][boots]  |
-| Grove | 1 | light | ![shovel][shovel]  |
-| Desert West Ledge | 1 | light | (![book][book] or mire_zone ![mirror][mirror] ) |
-| Checkerboard Cave | 1 | mire_zone | ![mirror][mirror]  |
+| Library | 1 | light | <img src="./img/boots.png" alt="boots" height="20px">  |
+| Grove | 1 | light | <img src="./img/shovel.png" alt="shovel" height="20px">  |
+| Desert West Ledge | 1 | light | (<img src="./img/book.png" alt="book" height="20px"> or mire_zone <img src="./img/mirror.png" alt="mirror" height="20px"> ) |
+| Checkerboard Cave | 1 | mire_zone | <img src="./img/mirror.png" alt="mirror" height="20px">  |
 | Aginah's Cave | 1 | light |  |
-| Bombos Tablet | 1 | dark_south | ![sword2][sword2] ![book][book] ![mirror][mirror]  |
-| Cave 45 | 1 | dark_south | ![mirror][mirror]  |
+| Bombos Tablet | 1 | dark_south | <img src="./img/sword2.png" alt="sword2" height="20px"> <img src="./img/book.png" alt="book" height="20px"> <img src="./img/mirror.png" alt="mirror" height="20px">  |
+| Cave 45 | 1 | dark_south | <img src="./img/mirror.png" alt="mirror" height="20px">  |
 | Light World Swamp | 2 | light |  |
 | Minimoldorm Cave | 5 | light |  |
 | Ice Rod Cave | 1 | light |  |
-| Lake Hylia Island | 1 | light | ![flippers][flippers] ![mirror][mirror] ![moonpearl][moonpearl] (dark_south or dark_east) |
-| Hobo | 1 | light | ![flippers][flippers]  |
+| Lake Hylia Island | 1 | light | <img src="./img/flippers.png" alt="flippers" height="20px"> <img src="./img/mirror.png" alt="mirror" height="20px"> <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> (dark_south or dark_east) |
+| Hobo | 1 | light | <img src="./img/flippers.png" alt="flippers" height="20px">  |
 | Link's House | 1 | light |  |
 | Castle Secret Entrance | 2 | light |  |
 | Hyrule Castle Dungeon | 3 | light |  |
-| Escape Sewer Dark Room | 1 | light | ![lantern][lantern]  |
-| Escape Sewer Side Room | 3 | light | (![lantern][lantern] or glove1) |
+| Escape Sewer Dark Room | 1 | light | <img src="./img/lantern.png" alt="lantern" height="20px">  |
+| Escape Sewer Side Room | 3 | light | (<img src="./img/lantern.png" alt="lantern" height="20px"> or <img src="./img/glove1.png" alt="glove1" height="20px">) |
 | Sanctuary | 1 | light |  |
-| Bumper Cave | 1 | dark_north | glove1 ![cape][cape]  |
-| Spike Cave | 1 | mount_left | ![moonpearl][moonpearl] ![hammer][hammer] glove1 (![byrna][byrna] or ![cape][cape]) |
+| Bumper Cave | 1 | dark_north | <img src="./img/glove1.png" alt="glove1" height="20px"> <img src="./img/cape.png" alt="cape" height="20px">  |
+| Spike Cave | 1 | mount_left | <img src="./img/moonpearl.png" alt="moonpearl" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px"> <img src="./img/glove1.png" alt="glove1" height="20px"> (<img src="./img/byrna.png" alt="byrna" height="20px"> or <img src="./img/cape.png" alt="cape" height="20px">) |
 | Superbunny Cave | 2 | mount_dark |  |
-| Hookshot Cave (Top) | 3 | mount_dark | ![hookshot][hookshot]  |
-| Hookshot Cave (Bottom) | 1 | mount_dark | (![hookshot][hookshot] or ![boots][boots]) |
-| Catfish | 1 | dark_east | glove1  |
+| Hookshot Cave (Top) | 3 | mount_dark | <img src="./img/hookshot.png" alt="hookshot" height="20px">  |
+| Hookshot Cave (Bottom) | 1 | mount_dark | (<img src="./img/hookshot.png" alt="hookshot" height="20px"> or <img src="./img/boots.png" alt="boots" height="20px">) |
+| Catfish | 1 | dark_east | <img src="./img/glove1.png" alt="glove1" height="20px">  |
 | Treasure Chest Minigame | 1 | dark_north |  |
 | C House | 1 | dark_north |  |
 | Bombable Hut | 1 | dark_north |  |
-| Purple Chest | 1 | dark_north | ![glove2][glove2]  |
-| Hammer Pegs | 1 | dark_north | ![glove2][glove2] ![hammer][hammer]  |
-| Pyramid Fairy | 2 | dark_south | crystal5 crystal6 (![hammer][hammer] or agahnim ![mirror][mirror] ) |
+| Purple Chest | 1 | dark_north | <img src="./img/glove2.png" alt="glove2" height="20px">  |
+| Hammer Pegs | 1 | dark_north | <img src="./img/glove2.png" alt="glove2" height="20px"> <img src="./img/hammer.png" alt="hammer" height="20px">  |
+| Pyramid Fairy | 2 | dark_south | crystal5 crystal6 (<img src="./img/hammer.png" alt="hammer" height="20px"> or agahnim <img src="./img/mirror.png" alt="mirror" height="20px"> ) |
 | Pyramid | 1 | dark_east |  |
 | Digging Game | 1 | dark_south |  |
 | Stumpy | 1 | dark_south |  |
 | Hype Cave | 5 | dark_south |  |
 | Mire Shed | 2 | mire_zone |  |
-
-[sword]: ./img/sword.jpg "Fighter Sword"
-[sword2]: ./img/sword2.jpg "Master Sword"
-[moonpearl]: ./img/moonpearl.jpg "Moon Pearl"
-[bow]: ./img/bow.jpg "Bow"
-[silver]: ./img/silver.jpg "Silver Arrows"
-[hookshot]: ./img/hookshot.jpg "Hookshot"
-[mushroom]: ./img/mushroom.jpg "Mushroom"
-[powder]: ./img/powder.jpg "Magic Powder"
-[firerod]: ./img/firerod.jpg "Fire Rod"
-[icerod]: ./img/icerod.jpg "Ice Rod"
-[bombos]: ./img/bombos.jpg "Bombos Medallion"
-[ether]: ./img/ether.jpg "Ether Medallion"
-[quake]: ./img/quake.jpg "Quake Medallion"
-[lantern]: ./img/lantern.jpg "Lantern"
-[hammer]: ./img/hammer.jpg "Hammer"
-[shovel]: ./img/shovel.jpg "Shovel"
-[book]: ./img/book.jpg "Book of Mudora"
-[bottle]: ./img/bottle.jpg "Bottle"
-[somaria]: ./img/somaria.jpg "Cane of Somaria"
-[byrna]: ./img/byrna.jpg "Cane of Byrna"
-[cape]: ./img/cape.jpg "Magic Cape"
-[mirror]: ./img/mirror.jpg "Magic Mirror"
-[boots]: ./img/boots.jpg "Pegasus Boots"
-[glove]: ./img/glove.jpg "Power Glove"
-[glove2]: ./img/glove2.jpg "Titan's Mitt"
-[flippers]: ./img/flippers.jpg "Zora's Flippers"
-[flute]: ./img/flute.jpg "Flute"
