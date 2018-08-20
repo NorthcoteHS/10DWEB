@@ -29,11 +29,11 @@ Your task is to program the *logic* behind this randomiser. You will be given al
 
 There is a *lot* of information to handle for this project:
 
-    - **Items:** There are 27 items that may be required to complete the game, all other items can be considered "junk".
-    - **Areas:** There are 9 separate areas in the world that have different requirements to access.
-    - **Encounters:** There is one boss fight you can do that opens up additional routes around the world.
-    - **Dungeons:** There are 11 dungeons in the game. To beat the game, you must complete Ganon's Tower. To access Ganon's Tower, you must complete all 7 "Crystal" dungeons, which are randomly chosen from the other 10 dungeons each game. Each dungeon has a different number of item locations inside.
-    - **Locations:** Every item in the game is either in a dungeon or in the "overworld". All the overworld locations are listed, with the requirements to access.
+- **Items:** There are 27 items that may be required to complete the game, all other items can be considered "junk".
+- **Areas:** There are 9 separate areas in the world that have different requirements to access.
+- **Encounters:** There is one boss fight you can do that opens up additional routes around the world.
+- **Dungeons:** There are 11 dungeons in the game. To beat the game, you must complete Ganon's Tower. To access Ganon's Tower, you must complete all 7 "Crystal" dungeons, which are randomly chosen from the other 10 dungeons each game. Each dungeon has a different number of item locations inside.
+- **Locations:** Every item in the game is either in a dungeon or in the "overworld". All the overworld locations are listed, with the requirements to access.
 
 Note that every location has a zone and requirements - to get the item, you must be able to access that zone *and* have all the other requirements. The logic is often complicated, with ands and ors.
 
