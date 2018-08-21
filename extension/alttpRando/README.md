@@ -6,7 +6,7 @@
 
 One of the most creative adaptations of the game is the ["ALttP Randomiser"](https://alttpr.com/), which takes the original game but shuffles the location of every item. In Zelda games, you unlock access to different parts of the world by acquiring new items. If those items are in random locations, it makes each play-through new and unique.
 
-Your task is to program the *logic* behind this randomiser. You will be given all the information you need below.
+Your task is to program the *logic* behind this randomiser (see Step 2 below). You will be given all the information you need below.
 
 ## Steps
 
@@ -17,12 +17,19 @@ Your task is to program the *logic* behind this randomiser. You will be given al
 
 2. Use the information below to create one of:
 
-    - A "tracker" which lets you indicate what items you've found, and tells you which items are available to you. [Example here](https://crossproduct42.github.io/alttprandohelper/tracker.html?mode=open&map).
+    - A "tracker" which lets you indicate what items you've found, and tells you which locations are available to you. [Example here](https://crossproduct42.github.io/alttprandohelper/tracker.html?mode=open&map).
     - A "seed generator" which assigns the location of each item, following the rules below and ensuring it is possible to complete the game (finish Ganon's Tower, which requires completing the 7 crystals). *This is the harder option.*
 
-3. Start simple - e.g. ignore the zone requirements to begin with.
+3. Start simple - for the tracker, try creating:
 
-4. Try to develop a creative solution - one of the hardest steps will be *representing* all of the information and requirements. Try to avoid using 100+ if statements - it will become very difficult to manage. There is always a more elegant solution.
+    - A list of all the **Items**, with a way to enter whether you have found them or not (checkboxes, text inputs, however you want to do it).
+    - A list of the **Areas** (ignore individual item locations to start).
+    - A **Calculate** button, which computes which areas are available with those items.
+    - Then somehow indicate the result (e.g. changing the text colour of the available areas using styles).
+
+4. Build from there - the next step is to add the **Locations** (skip Dungeons and Encounters for now). You can make a list like the Areas, and modify the Calculate button to also check each individual Location.
+
+5. As you go, try to develop a creative solution - one of the hardest steps will be *representing* all of the information and requirements. Try to avoid using 100+ if statements - it will become very difficult to manage. There is always a more elegant solution.
 
 
 ## Information
