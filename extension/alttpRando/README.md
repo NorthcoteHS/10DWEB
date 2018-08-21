@@ -169,3 +169,9 @@ Note that every location has a zone and requirements - to get the item, you must
 | Stumpy | 1 | dark_south |  |
 | Hype Cave | 5 | dark_south |  |
 | Mire Shed | 2 | mire_zone |  |
+
+## More resources
+
+- [Overworld items guide](https://maplequeensaku.weebly.com/news/legend-of-zelda-a-link-to-the-past-randomizer-overworld-item-locations-guide)
+- [Dungeon items guide](https://maplequeensaku.weebly.com/news/legend-of-zelda-a-link-to-the-past-randomizer-dungeon-item-locations-guide)
+- [Dungeon requirements guide](https://maplequeensaku.weebly.com/news/what-items-you-need-to-clear-dungeons-in-a-link-to-the-past-randomizer)
