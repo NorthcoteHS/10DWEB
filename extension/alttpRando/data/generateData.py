@@ -35,6 +35,20 @@ items = [
     ["flute",		"Flute"],
 ]
 
+imgInfo = items + [
+    ["agahnim",		"Agahnim"],
+    ["pendant0",	"Green Pendant (Courage)"],
+    ["pendant1",	"Blue Pendant (Power)"],
+    ["pendant2",	"Red Pendant (Wisdom)"],
+    ["crystal1",	"Crystal 1"],
+    ["crystal2",	"Crystal 2"],
+    ["crystal3",	"Crystal 3"],
+    ["crystal4",	"Crystal 4"],
+    ["crystal5",	"Crystal 5"],
+    ["crystal6",	"Crystal 6"],
+    ["crystal7",	"Crystal 7"],
+]
+
 areas = [
     ["light",		"Light World",					[]],
     ["mount_left",	"Death Mountain - Left",		[[['glove1', 'lantern'], 'flute']]],
@@ -62,7 +76,7 @@ dungeons = [
     ["ice",			"Ice Palace",			3,	'dark_east',	['flippers', 'glove2', ['firerod', ['bombos', 'sword1']]],	['hammer', ['hookshot', 'somaria']]],
     ["mire",		"Misery Mire",			2,	'mire_zone',	[['hookshot', 'boots']],	['somaria', 'lantern']],
     ["turtle",		"Turtle Rock",			5,	'mount_dark',	['glove2', 'hammer', 'somaria'],	['lantern', 'firerod', 'icerod']],
-    ["gt",			"Ganon's Tower",		20,	'mount_dark',	['all_crystals'],	['boots', 'hammer', 'hookshot', 'somaria', 'firerod', 'bow', 'silver']],
+    ["gt",			"Ganon's Tower",		20,	'mount_dark',	['crystal1', 'crystal2', 'crystal3', 'crystal4', 'crystal5', 'crystal6', 'crystal7'],	['boots', 'hammer', 'hookshot', 'somaria', 'firerod', 'bow', 'silver']],
 ]
 
 locations = [
@@ -149,9 +163,9 @@ def parseReq(reqs):
 
 # Create a reference to an image.
 def imgRef(code, desc):
-    #return '![{1}][{0}]'.format(code, desc) if code in itemCodes else code
-    if code in itemCodes:
-        desc = items[itemCodes.index(code)][1]
+    #return '![{1}][{0}]'.format(code, desc) if code in imgCodes else code
+    if code in imgCodes:
+        desc = imgInfo[imgCodes.index(code)][1]
         return '<img src="./img/{0}.png" alt="{1}" title="{1}" height="20px">'.format(code, desc)
     else:
         return code
@@ -164,19 +178,19 @@ def imgFoot(code, desc):
 # --- MAIN --- #
 
 # Pre-allocate.
-itemCodes = [x[0] for x in items]
+imgCodes = [x[0] for x in imgInfo]
 main = ''
 #foot = ''
 
 # Items.
-main += '#### Items\n| Item | Image |\n|------|-------|\n'
+main += '#### Items\n\n| Item | Image |\n|------|-------|\n'
 for item in items:
     main += '| {} | {} |\n'.format(item[1], imgRef(item[0], item[1]))
     #foot += imgFoot(item[0], item[1])
 
 # Areas.
 #main += '\n| Area | Image | Requirements |\n|------|-------|--------------|\n'
-main += '\n#### Areas\n| Area | Code | Requirements |\n|------|-------|--------------|\n'
+main += '\n#### Areas\n\n| Area | Code | Requirements |\n|------|-------|--------------|\n'
 for item in areas:
     req = parseReq(item[2])
     main += '| {} | {} | {} |\n'.format(item[1], item[0], req)
@@ -185,15 +199,15 @@ for item in areas:
 
 # Encounters.
 #main += '\n| Encounter | Image | Requirements |\n|-----------|-------|--------------|\n'
-main += '\n#### Encounters\n| Encounter | Code | Requirements |\n|-----------|-------|--------------|\n'
+main += '\n#### Encounters\n\n| Encounter | Image | Requirements |\n|-----------|--------|--------------|\n'
 for item in encounters:
     req = parseReq(item[2])
-    main += '| {} | {} | {} |\n'.format(item[1], item[0], req)
-    #main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0], item[1]), req)
+    #main += '| {} | {} | {} |\n'.format(item[1], item[0], req)
+    main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0], item[1]), req)
     #foot += imgFoot(item[0], item[1])
 
 # Dungeons.
-main += '\n#### Dungeons\n| Dungeon | # of Items | Zone | Entry Requirements | Completion Requirements |'
+main += '\n#### Dungeons\n\n| Dungeon | # of Items | Zone | Entry Requirements | Completion Requirements |'
 main += '\n|---------|------------|------|--------------------|-------------------------|\n'
 for item in dungeons:
     req1 = parseReq(item[4])
@@ -201,7 +215,7 @@ for item in dungeons:
     main += '| {} | {} | {} | {} | {} |\n'.format(item[1], item[2], item[3], req1, req2)
 
 # Locations.
-main += '\n#### Locations\n| Location | # of Items | Zone | Requirements |'
+main += '\n#### Locations\n\n| Location | # of Items | Zone | Requirements |'
 main += '\n|----------|------------|------|--------------|\n'
 for item in locations:
     req = parseReq(item[5])

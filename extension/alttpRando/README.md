@@ -48,6 +48,7 @@ There is a *lot* of information to handle for this project:
 Note that every location has a zone and requirements - to get the item, you must be able to access that zone *and* have all the other requirements. The logic is often complicated, with ands and ors.
 
 #### Items
+
 | Item | Image |
 |------|-------|
 | Fighter Sword | <img src="./img/sword1.png" alt="Fighter Sword" title="Fighter Sword" height="20px"> |
@@ -79,6 +80,7 @@ Note that every location has a zone and requirements - to get the item, you must
 | Flute | <img src="./img/flute.png" alt="Flute" title="Flute" height="20px"> |
 
 #### Areas
+
 | Area | Code | Requirements |
 |------|-------|--------------|
 | Light World | light |  |
@@ -86,17 +88,19 @@ Note that every location has a zone and requirements - to get the item, you must
 | Death Mountain - Top | mount_top | mount_left (<img src="./img/mirror.png" alt="Magic Mirror" title="Magic Mirror" height="20px"> or <img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> ) |
 | Death Mountain - Right | mount_right | mount_left (<img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> or <img src="./img/mirror.png" alt="Magic Mirror" title="Magic Mirror" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> ) |
 | Death Mountain - Dark World | mount_dark | mount_right <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px">  |
-| Dark World - North | dark_north | <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> (<img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> or <img src="./img/glove1.png" alt="Power Glove" title="Power Glove" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px">  or agahnim <img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> (<img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> or <img src="./img/glove1.png" alt="Power Glove" title="Power Glove" height="20px"> or <img src="./img/flippers.png" alt="Zora's Flippers" title="Zora's Flippers" height="20px">)) |
-| Dark World - South | dark_south | <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> (dark_north or agahnim <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> ) |
-| Dark World - East | dark_east | <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> (agahnim or <img src="./img/glove1.png" alt="Power Glove" title="Power Glove" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px">  or <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> <img src="./img/flippers.png" alt="Zora's Flippers" title="Zora's Flippers" height="20px"> ) |
+| Dark World - North | dark_north | <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> (<img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> or <img src="./img/glove1.png" alt="Power Glove" title="Power Glove" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px">  or <img src="./img/agahnim.png" alt="Agahnim" title="Agahnim" height="20px"> <img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> (<img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> or <img src="./img/glove1.png" alt="Power Glove" title="Power Glove" height="20px"> or <img src="./img/flippers.png" alt="Zora's Flippers" title="Zora's Flippers" height="20px">)) |
+| Dark World - South | dark_south | <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> (dark_north or <img src="./img/agahnim.png" alt="Agahnim" title="Agahnim" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> ) |
+| Dark World - East | dark_east | <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> (<img src="./img/agahnim.png" alt="Agahnim" title="Agahnim" height="20px"> or <img src="./img/glove1.png" alt="Power Glove" title="Power Glove" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px">  or <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> <img src="./img/flippers.png" alt="Zora's Flippers" title="Zora's Flippers" height="20px"> ) |
 | Misery Mire Area | mire_zone | <img src="./img/flute.png" alt="Flute" title="Flute" height="20px"> <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px">  |
 
 #### Encounters
-| Encounter | Code | Requirements |
-|-----------|-------|--------------|
-| Agahnim | agahnim | <img src="./img/lantern.png" alt="Lantern" title="Lantern" height="20px"> (<img src="./img/sword2.png" alt="Master Sword" title="Master Sword" height="20px"> or <img src="./img/sword1.png" alt="Fighter Sword" title="Fighter Sword" height="20px"> <img src="./img/cape.png" alt="Magic Cape" title="Magic Cape" height="20px"> ) |
+
+| Encounter | Image | Requirements |
+|-----------|--------|--------------|
+| Agahnim | <img src="./img/agahnim.png" alt="Agahnim" title="Agahnim" height="20px"> | <img src="./img/lantern.png" alt="Lantern" title="Lantern" height="20px"> (<img src="./img/sword2.png" alt="Master Sword" title="Master Sword" height="20px"> or <img src="./img/sword1.png" alt="Fighter Sword" title="Fighter Sword" height="20px"> <img src="./img/cape.png" alt="Magic Cape" title="Magic Cape" height="20px"> ) |
 
 #### Dungeons
+
 | Dungeon | # of Items | Zone | Entry Requirements | Completion Requirements |
 |---------|------------|------|--------------------|-------------------------|
 | Eastern Palace | 3 | light |  | <img src="./img/bow.png" alt="Bow" title="Bow" height="20px"> <img src="./img/lantern.png" alt="Lantern" title="Lantern" height="20px">  |
@@ -109,15 +113,16 @@ Note that every location has a zone and requirements - to get the item, you must
 | Ice Palace | 3 | dark_east | <img src="./img/flippers.png" alt="Zora's Flippers" title="Zora's Flippers" height="20px"> <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> (<img src="./img/firerod.png" alt="Fire Rod" title="Fire Rod" height="20px"> or <img src="./img/bombos.png" alt="Bombos Medallion" title="Bombos Medallion" height="20px"> <img src="./img/sword1.png" alt="Fighter Sword" title="Fighter Sword" height="20px"> ) | <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> (<img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> or <img src="./img/somaria.png" alt="Cane of Somaria" title="Cane of Somaria" height="20px">) |
 | Misery Mire | 2 | mire_zone | (<img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> or <img src="./img/boots.png" alt="Pegasus Boots" title="Pegasus Boots" height="20px">) | <img src="./img/somaria.png" alt="Cane of Somaria" title="Cane of Somaria" height="20px"> <img src="./img/lantern.png" alt="Lantern" title="Lantern" height="20px">  |
 | Turtle Rock | 5 | mount_dark | <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> <img src="./img/somaria.png" alt="Cane of Somaria" title="Cane of Somaria" height="20px">  | <img src="./img/lantern.png" alt="Lantern" title="Lantern" height="20px"> <img src="./img/firerod.png" alt="Fire Rod" title="Fire Rod" height="20px"> <img src="./img/icerod.png" alt="Ice Rod" title="Ice Rod" height="20px">  |
-| Ganon's Tower | 20 | mount_dark | all_crystals  | <img src="./img/boots.png" alt="Pegasus Boots" title="Pegasus Boots" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> <img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> <img src="./img/somaria.png" alt="Cane of Somaria" title="Cane of Somaria" height="20px"> <img src="./img/firerod.png" alt="Fire Rod" title="Fire Rod" height="20px"> <img src="./img/bow.png" alt="Bow" title="Bow" height="20px"> <img src="./img/silver.png" alt="Silver Arrows" title="Silver Arrows" height="20px">  |
+| Ganon's Tower | 20 | mount_dark | <img src="./img/crystal1.png" alt="Crystal 1" title="Crystal 1" height="20px"> <img src="./img/crystal2.png" alt="Crystal 2" title="Crystal 2" height="20px"> <img src="./img/crystal3.png" alt="Crystal 3" title="Crystal 3" height="20px"> <img src="./img/crystal4.png" alt="Crystal 4" title="Crystal 4" height="20px"> <img src="./img/crystal5.png" alt="Crystal 5" title="Crystal 5" height="20px"> <img src="./img/crystal6.png" alt="Crystal 6" title="Crystal 6" height="20px"> <img src="./img/crystal7.png" alt="Crystal 7" title="Crystal 7" height="20px">  | <img src="./img/boots.png" alt="Pegasus Boots" title="Pegasus Boots" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> <img src="./img/hookshot.png" alt="Hookshot" title="Hookshot" height="20px"> <img src="./img/somaria.png" alt="Cane of Somaria" title="Cane of Somaria" height="20px"> <img src="./img/firerod.png" alt="Fire Rod" title="Fire Rod" height="20px"> <img src="./img/bow.png" alt="Bow" title="Bow" height="20px"> <img src="./img/silver.png" alt="Silver Arrows" title="Silver Arrows" height="20px">  |
 
 #### Locations
+
 | Location | # of Items | Zone | Requirements |
 |----------|------------|------|--------------|
-| Master Sword Pedestal | 1 | light | pendant0 pendant1 pendant2  |
+| Master Sword Pedestal | 1 | light | <img src="./img/pendant0.png" alt="Green Pendant (Courage)" title="Green Pendant (Courage)" height="20px"> <img src="./img/pendant1.png" alt="Blue Pendant (Power)" title="Blue Pendant (Power)" height="20px"> <img src="./img/pendant2.png" alt="Red Pendant (Wisdom)" title="Red Pendant (Wisdom)" height="20px">  |
 | Mushroom | 1 | light |  |
 | Forest Hideout | 1 | light |  |
-| Lumberjack Tree | 1 | light | agahnim <img src="./img/boots.png" alt="Pegasus Boots" title="Pegasus Boots" height="20px">  |
+| Lumberjack Tree | 1 | light | <img src="./img/agahnim.png" alt="Agahnim" title="Agahnim" height="20px"> <img src="./img/boots.png" alt="Pegasus Boots" title="Pegasus Boots" height="20px">  |
 | Lost Old Man | 1 | mount_left | <img src="./img/lantern.png" alt="Lantern" title="Lantern" height="20px">  |
 | Spectacle Rock Cave | 1 | mount_left |  |
 | Spectacle Rock | 1 | mount_left | <img src="./img/mirror.png" alt="Magic Mirror" title="Magic Mirror" height="20px">  |
@@ -142,7 +147,7 @@ Note that every location has a zone and requirements - to get the item, you must
 | Blacksmith | 1 | light | <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px">  |
 | Magic Bat | 1 | light | <img src="./img/powder.png" alt="Magic Powder" title="Magic Powder" height="20px"> (<img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> or <img src="./img/mirror.png" alt="Magic Mirror" title="Magic Mirror" height="20px"> <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> <img src="./img/moonpearl.png" alt="Moon Pearl" title="Moon Pearl" height="20px"> ) |
 | Sahasrahla's Hut | 3 | light |  |
-| Sahasrahla | 1 | light | pendant0  |
+| Sahasrahla | 1 | light | <img src="./img/pendant0.png" alt="Green Pendant (Courage)" title="Green Pendant (Courage)" height="20px">  |
 | Race Minigame | 1 | light |  |
 | Library | 1 | light | <img src="./img/boots.png" alt="Pegasus Boots" title="Pegasus Boots" height="20px">  |
 | Grove | 1 | light | <img src="./img/shovel.png" alt="Shovel" title="Shovel" height="20px">  |
@@ -173,7 +178,7 @@ Note that every location has a zone and requirements - to get the item, you must
 | Bombable Hut | 1 | dark_north |  |
 | Purple Chest | 1 | dark_north | <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px">  |
 | Hammer Pegs | 1 | dark_north | <img src="./img/glove2.png" alt="Titan's Mitt" title="Titan's Mitt" height="20px"> <img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px">  |
-| Pyramid Fairy | 2 | dark_south | crystal5 crystal6 (<img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> or agahnim <img src="./img/mirror.png" alt="Magic Mirror" title="Magic Mirror" height="20px"> ) |
+| Pyramid Fairy | 2 | dark_south | <img src="./img/crystal5.png" alt="Crystal 5" title="Crystal 5" height="20px"> <img src="./img/crystal6.png" alt="Crystal 6" title="Crystal 6" height="20px"> (<img src="./img/hammer.png" alt="Hammer" title="Hammer" height="20px"> or <img src="./img/agahnim.png" alt="Agahnim" title="Agahnim" height="20px"> <img src="./img/mirror.png" alt="Magic Mirror" title="Magic Mirror" height="20px"> ) |
 | Pyramid | 1 | dark_east |  |
 | Digging Game | 1 | dark_south |  |
 | Stumpy | 1 | dark_south |  |
