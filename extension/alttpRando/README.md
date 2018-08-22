@@ -26,10 +26,13 @@ Your task is to program the *logic* behind this randomiser (see Step 2 below). Y
     - A list of the **Areas** (ignore individual item locations to start).
     - A **Calculate** button, which computes which areas are available with those items.
     - Then somehow indicate the result (e.g. changing the text colour of the available areas using styles).
+    - **Ignore** the Agahnim requirements to begin with (or just treat it as an Item that you can toggle on/off).
 
-4. Build from there - the next step is to add the **Locations** (skip Dungeons and Encounters for now). You can make a list like the Areas, and modify the Calculate button to also check each individual Location.
+4. Build from there - the next step is to add the **Locations** (skip Dungeons for now). You can make a list like the Areas, and modify the Calculate button to also check each individual Location.
 
-5. As you go, try to develop a creative solution - one of the hardest steps will be *representing* all of the information and requirements. Try to avoid using 100+ if statements - it will become very difficult to manage. There is always a more elegant solution.
+5. The trickiest bit will be the dungeons - see the [Information](#information) below. The 3 Pendants and 7 Crystals are randomly shuffled between all 10 dungeons, and all 7 Crystals are required to beat the game. In addition, certain locations require specific crystals or pendants. Finally, there are different requirements for getting *into* each dungeon vs. *completing* the dungeon.
+
+6. As you go, try to develop a creative solution - one of the hardest steps will be *representing* all of the information and requirements. Try to avoid using 100+ if statements - it will become very difficult to manage. There is always a more elegant solution.
 
 
 ## Information
@@ -39,7 +42,7 @@ There is a *lot* of information to handle for this project:
 - **Items:** There are 27 items that may be required to complete the game, all other items can be considered "junk".
 - **Areas:** There are 9 separate areas in the world that have different requirements to access.
 - **Encounters:** There is one boss fight you can do that opens up additional routes around the world.
-- **Dungeons:** There are 11 dungeons in the game. To beat the game, you must complete Ganon's Tower. To access Ganon's Tower, you must complete all 7 "Crystal" dungeons, which are randomly chosen from the other 10 dungeons each game. Each dungeon has a different number of item locations inside.
+- **Dungeons:** There are 10 dungeons in the game, plus Ganon's Tower. Defeating a dungeon gives you either a Pendant (not required) or a Crystal (required to enter Ganon's Tower). There are 3 Pendants and 7 Crystals, shuffled randomly among the 10 dungeons. The goal of the game is to complete Ganon's Tower and defeat Ganon.
 - **Locations:** Every item in the game is either in a dungeon or in the "overworld". All the overworld locations are listed, with the requirements to access.
 
 Note that every location has a zone and requirements - to get the item, you must be able to access that zone *and* have all the other requirements. The logic is often complicated, with ands and ors.
