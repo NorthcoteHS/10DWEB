@@ -35,7 +35,19 @@ items = [
     ["flute",		"Flute"],
 ]
 
-imgInfo = items + [
+zones = [
+    ["light",		"Light World",					[]],
+    ["mount_left",	"Death Mountain - Left",		[[['glove1', 'lantern'], 'flute']]],
+    ["mount_top",	"Death Mountain - Top",			['mount_left', ['mirror', ['hookshot', 'hammer']]]],
+    ["mount_right",	"Death Mountain - Right",		['mount_left', ['hookshot', ['mirror', 'hammer']]]],
+    ["mount_dark",	"Death Mountain - Dark World",	['mount_right', 'moonpearl', 'glove2']],
+    ["dark_north",	"Dark World - North",			['moonpearl', ['glove2', ['glove1', 'hammer'], ['agahnim', 'hookshot', ['hammer', 'glove1', 'flippers']]]]],
+    ["dark_south",	"Dark World - South",			['moonpearl', ['dark_north', ['agahnim', 'hammer']]]],
+    ["dark_east",	"Dark World - East",			['moonpearl', ['agahnim', ['glove1', 'hammer'], ['glove2', 'flippers']]]],
+    ["mire_zone",	"Misery Mire Area",				['flute', 'glove2']],
+]
+
+imgInfo = items + zones + [
     ["agahnim",		"Agahnim"],
     ["pendant0",	"Green Pendant (Courage)"],
     ["pendant1",	"Blue Pendant (Power)"],
@@ -47,18 +59,6 @@ imgInfo = items + [
     ["crystal5",	"Crystal 5"],
     ["crystal6",	"Crystal 6"],
     ["crystal7",	"Crystal 7"],
-]
-
-areas = [
-    ["light",		"Light World",					[]],
-    ["mount_left",	"Death Mountain - Left",		[[['glove1', 'lantern'], 'flute']]],
-    ["mount_top",	"Death Mountain - Top",			['mount_left', ['mirror', ['hookshot', 'hammer']]]],
-    ["mount_right",	"Death Mountain - Right",		['mount_left', ['hookshot', ['mirror', 'hammer']]]],
-    ["mount_dark",	"Death Mountain - Dark World",	['mount_right', 'moonpearl', 'glove2']],
-    ["dark_north",	"Dark World - North",			['moonpearl', ['glove2', ['glove1', 'hammer'], ['agahnim', 'hookshot', ['hammer', 'glove1', 'flippers']]]]],
-    ["dark_south",	"Dark World - South",			['moonpearl', ['dark_north', ['agahnim', 'hammer']]]],
-    ["dark_east",	"Dark World - East",			['moonpearl', ['agahnim', ['glove1', 'hammer'], ['glove2', 'flippers']]]],
-    ["mire_zone",	"Misery Mire Area",				['flute', 'glove2']],
 ]
 
 encounters = [
@@ -181,13 +181,11 @@ main += '#### Items\n\n| Item | Image |\n|------|-------|\n'
 for item in items:
     main += '| {} | {} |\n'.format(item[1], imgRef(item[0]))
 
-# Areas.
-#main += '\n| Area | Image | Requirements |\n|------|-------|--------------|\n'
-main += '\n#### Areas\n\n| Area | Code | Requirements |\n|------|-------|--------------|\n'
-for item in areas:
+# Zones.
+main += '\n#### Zones\n\n| Zone | Image | Requirements |\n|------|-------|--------------|\n'
+for item in zones:
     req = parseReq(item[2])
-    main += '| {} | {} | {} |\n'.format(item[1], item[0], req)
-    #main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0]), req)
+    main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0]), req)
 
 # Encounters.
 main += '\n#### Encounters\n\n| Encounter | Image | Requirements |\n|-----------|--------|--------------|\n'
@@ -201,14 +199,14 @@ main += '\n|---------|------------|------|--------------------|-----------------
 for item in dungeons:
     req1 = parseReq(item[4])
     req2 = parseReq(item[5])
-    main += '| {} | {} | {} | {} | {} |\n'.format(item[1], item[2], item[3], req1, req2)
+    main += '| {} | {} | {} | {} | {} |\n'.format(item[1], item[2], imgRef(item[3]), req1, req2)
 
 # Locations.
 main += '\n#### Locations\n\n| Location | # of Items | Zone | Requirements |'
 main += '\n|----------|------------|------|--------------|\n'
 for item in locations:
     req = parseReq(item[5])
-    main += '| {} | {} | {} | {} |\n'.format(item[1], item[2], item[4], req)
+    main += '| {} | {} | {} | {} |\n'.format(item[1], item[2], imgRef(item[4]), req)
 
 
 print(main)
