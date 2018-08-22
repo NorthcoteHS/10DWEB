@@ -155,24 +155,19 @@ def parseReq(reqs):
     out = ''
     for req in reqs:
         if isinstance(req, list):
-            orList = [parseReq(x) if isinstance(x, list) else imgRef(x,x) for x in req]
+            orList = [parseReq(x) if isinstance(x, list) else imgRef(x) for x in req]
             out += '({})'.format(' or '.join(orList))
         elif isinstance(req, str):
-            out += imgRef(req, req) + ' '
+            out += imgRef(req) + ' '
     return out
 
 # Create a reference to an image.
-def imgRef(code, desc):
-    #return '![{1}][{0}]'.format(code, desc) if code in imgCodes else code
+def imgRef(code):
     if code in imgCodes:
         desc = imgInfo[imgCodes.index(code)][1]
         return '<img src="./img/{0}.png" alt="{1}" title="{1}" height="20px">'.format(code, desc)
     else:
         return code
-
-# Create an image mapping for the footer.
-def imgFoot(code, desc):
-    return '[{0}]: ./img/{0}.png "{1}"\n'.format(code, desc)
 
 
 # --- MAIN --- #
@@ -180,13 +175,11 @@ def imgFoot(code, desc):
 # Pre-allocate.
 imgCodes = [x[0] for x in imgInfo]
 main = ''
-#foot = ''
 
 # Items.
 main += '#### Items\n\n| Item | Image |\n|------|-------|\n'
 for item in items:
-    main += '| {} | {} |\n'.format(item[1], imgRef(item[0], item[1]))
-    #foot += imgFoot(item[0], item[1])
+    main += '| {} | {} |\n'.format(item[1], imgRef(item[0]))
 
 # Areas.
 #main += '\n| Area | Image | Requirements |\n|------|-------|--------------|\n'
@@ -194,17 +187,13 @@ main += '\n#### Areas\n\n| Area | Code | Requirements |\n|------|-------|-------
 for item in areas:
     req = parseReq(item[2])
     main += '| {} | {} | {} |\n'.format(item[1], item[0], req)
-    #main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0], item[1]), req)
-    #foot += imgFoot(item[0], item[1])
+    #main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0]), req)
 
 # Encounters.
-#main += '\n| Encounter | Image | Requirements |\n|-----------|-------|--------------|\n'
 main += '\n#### Encounters\n\n| Encounter | Image | Requirements |\n|-----------|--------|--------------|\n'
 for item in encounters:
     req = parseReq(item[2])
-    #main += '| {} | {} | {} |\n'.format(item[1], item[0], req)
-    main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0], item[1]), req)
-    #foot += imgFoot(item[0], item[1])
+    main += '| {} | {} | {} |\n'.format(item[1], imgRef(item[0]), req)
 
 # Dungeons.
 main += '\n#### Dungeons\n\n| Dungeon | # of Items | Zone | Entry Requirements | Completion Requirements |'
@@ -223,4 +212,3 @@ for item in locations:
 
 
 print(main)
-#print(foot)
