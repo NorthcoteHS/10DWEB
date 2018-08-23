@@ -165,7 +165,7 @@ def parseReq(reqs):
 def imgRef(code):
     if code in imgCodes:
         desc = imgInfo[imgCodes.index(code)][1]
-        return '<img src="./img/{0}.png" alt="{1}" title="{1}" height="20px">'.format(code, desc)
+        return '<img src="./img/{0}.png" alt="{1}" title="{1}" height="22px">'.format(code, desc)
     else:
         return code
 
