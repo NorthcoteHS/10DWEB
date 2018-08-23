@@ -6,6 +6,8 @@ Your task is to use HTML and CSS to create a realistic reproduction of a cheque.
 
 ![Cheque](./cheque.jpg "Sample Cheque")
 
+[//]: # (Image source: http://torontostamps.com/personalcheque.html)
+
 ## Steps
 
 1. Before attempting this task, you should first complete [helloHtml](../2_helloHtml/) and [helloCss](../3_helloCss/).
@@ -33,3 +35,5 @@ Your task is to use HTML and CSS to create a realistic reproduction of a cheque.
 6. Try to get your cheque to look as close as possible to the original! Here's an example (created in HTML/CSS):
 
 ![Example](./example.jpg "Example")
+
+[//]: # (Background source: https://www.chequeprint.ca/wp-content/uploads/2015/03/Premium_BLANK_Green_Stock_Cheque_Print-600x246.jpg)
