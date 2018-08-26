@@ -44,7 +44,7 @@ zones = [
     ["dark_north",	"Dark World - North",			['moonpearl', ['glove2', ['glove1', 'hammer'], ['agahnim', 'hookshot', ['hammer', 'glove1', 'flippers']]]]],
     ["dark_south",	"Dark World - South",			['moonpearl', ['dark_north', ['agahnim', 'hammer']]]],
     ["dark_east",	"Dark World - East",			['moonpearl', ['agahnim', ['glove1', 'hammer'], ['glove2', 'flippers']]]],
-    ["mire_zone",	"Misery Mire Area",				['flute', 'glove2']],
+    ["mire_zone",	"Misery Mire Zone",				['flute', 'glove2']],
 ]
 
 imgInfo = items + zones + [
@@ -74,7 +74,7 @@ dungeons = [
     ["skull",		"Skull Woods",			2,	'dark_north',	[],	['firerod']],
     ["thieves",		"Thieves' Town",		4,	'dark_north',	[],	['hammer']],
     ["ice",			"Ice Palace",			3,	'dark_east',	['flippers', 'glove2', ['firerod', ['bombos', 'sword1']]],	['hammer', ['hookshot', 'somaria']]],
-    ["mire",		"Misery Mire",			2,	'mire_zone',	[['hookshot', 'boots']],	['somaria', 'lantern']],
+    ["mire",		"Misery Mire",			2,	'mire_zone',	['moonpearl', ['hookshot', 'boots']],	['somaria', 'lantern']],
     ["turtle",		"Turtle Rock",			5,	'mount_dark',	['glove2', 'hammer', 'somaria'],	['lantern', 'firerod', 'icerod']],
     ["gt",			"Ganon's Tower",		20,	'mount_dark',	['crystal1', 'crystal2', 'crystal3', 'crystal4', 'crystal5', 'crystal6', 'crystal7'],	['boots', 'hammer', 'hookshot', 'somaria', 'firerod', 'bow', 'silver']],
 ]
@@ -144,7 +144,7 @@ locations = [
     ["dig_game",       "Digging Game",              1, 0,       'dark_south',	[80]],
     ["stumpy",         "Stumpy",                    1, 0,       'dark_south',	[]],
     ["swamp_ne",       "Hype Cave",                 5, 2,       'dark_south',	[]],
-    ["mire_w",         "Mire Shed",                 2, 0,       'mire_zone',	[]],
+    ["mire_w",         "Mire Shed",                 2, 0,       'mire_zone',	['moonpearl']],
 ]
 
 
