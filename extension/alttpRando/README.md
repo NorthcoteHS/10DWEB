@@ -190,3 +190,5 @@ Note that every location has a zone and requirements - to get the item, you must
 - [Overworld items guide](https://maplequeensaku.weebly.com/news/legend-of-zelda-a-link-to-the-past-randomizer-overworld-item-locations-guide)
 - [Dungeon items guide](https://maplequeensaku.weebly.com/news/legend-of-zelda-a-link-to-the-past-randomizer-dungeon-item-locations-guide)
 - [Dungeon requirements guide](https://maplequeensaku.weebly.com/news/what-items-you-need-to-clear-dungeons-in-a-link-to-the-past-randomizer)
+- [CrossProduct tracker](https://crossproduct42.github.io/alttprandohelper/) ([location logic here](https://github.com/crossproduct42/alttprandohelper/blob/master/js/locations.js))
+- [CrossProduct tracker source code](https://github.com/crossproduct42/alttprandohelper/)
