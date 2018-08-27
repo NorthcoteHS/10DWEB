@@ -1,6 +1,7 @@
 """ TODO:
 - moonpearl exceptions (just pyramid?)
 - medallion logic (mire/turtle)
+- Ganon encounter (instead of incorporated into GT)
 """
 
 # --- DATA --- #
