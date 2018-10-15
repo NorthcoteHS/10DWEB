@@ -21,6 +21,7 @@ Each module and lesson also contains resources specific to the task. You can fin
 | Divs        | <ul><li>[Div tag (W3Schools)](https://www.w3schools.com/tags/tag_div.asp)</li><li>[Using 100% height in CSS](https://mattboldt.com/css-100-percent-height/)</li></ul> |
 | Buttons     | <ul><li>[HTML button element](https://www.w3schools.com/tags/tag_button.asp)</li><li>[Button onclick event (linking to functions)](https://www.w3schools.com/jsref/event_onclick.asp)</li></ul> |
 | Input elements | <ul><li>[Different input types (W3Schools)](https://www.w3schools.com/tags/att_input_type.asp)</li></ul> |
+| Dropdowns   | <ul><li>[HTML select element](https://www.w3schools.com/tags/tag_select.asp)</li></ul> |
 | Sound       | <ul><li>[HTML5 audio element](https://www.w3schools.com/html/html5_audio.asp)</li><li>[how to play audio on button click](https://www.w3schools.com/jsref/met_audio_play.asp) (try the "Try it Yourself")</li></ul> |
 
 ## JavaScript
