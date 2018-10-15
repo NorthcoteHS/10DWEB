@@ -46,3 +46,15 @@ Your job is to create a Mad Lib game. Create your own story or find one to use.
 - Use an array and a for loop to retrieve the values of all of the input fields.
 - Create multiple stories with different names and required words. Let the user choose by title which game they'd like to play.
 - Do something else creative!
+
+## Assessment
+
+| Level  | Expectations |
+|--------|--------------|
+| Bronze | Successfully retrieves the user's inputs and displays the resulting story. |
+| Silver | Uses arrays and/or template literals to optimise the code. |
+| Gold   | More than one story! |
+
+- **Note:** all code should be commented and you should have no redundant code.
+
+Remember to commit each time you've made a major change to your code, and to push to GitHub frequently.
