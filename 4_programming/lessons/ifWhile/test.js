@@ -58,8 +58,8 @@ describe('ifWhile', function() {
 
     vals.forEach(function(val) {
       var result = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'][val];
-      it('should return ' + result + ' when given ' + val, function() {
-        expect(numToWord(val)).to.equal(result);
+      it('should return ' + result + ' (or uppercase equivalent) when given ' + val, function() {
+        expect(numToWord(val).toLowerCase()).to.equal(result);
       });
     });
   });
