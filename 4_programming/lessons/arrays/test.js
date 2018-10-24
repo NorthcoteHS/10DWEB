@@ -21,14 +21,6 @@ describe('functions', function() {
     return out;
   }
 
-  beforeEach(function() {
-    sandbox.on(window, 'alert', () => 0);
-    sandbox.on(console, 'log', () => 0);
-  });
-
-  afterEach(function() {
-    sandbox.restore();
-  });
 
   /*
     - Create the following array: `roll = ['Jessica', 'Emily', 'Jordan', 'Kayley', 'Bruce', 'Michael', 'Everett', 'Lisa', 'Sam', 'Noah'];`
@@ -44,10 +36,17 @@ describe('functions', function() {
     - (Challenge) Split the array into two, each with 5 students (one with the first half of the class, the other with the second), and log like `console.log(list1, list2)`.
     */
   describe('#classRoll()', function() {
+    var roll = ['Jessica', 'Emily', 'Jordan', 'Kayley', 'Bruce', 'Michael', 'Everett', 'Lisa', 'Sam', 'Noah'];
+
     before(function() {
+      sandbox.on(window, 'alert', () => 0);
+      sandbox.on(console, 'log', () => 0);
       classRoll();
     });
-    var roll = ['Jessica', 'Emily', 'Jordan', 'Kayley', 'Bruce', 'Michael', 'Everett', 'Lisa', 'Sam', 'Noah'];
+    after(function() {
+      sandbox.restore();
+    });
+
     it('should log the initial array', function() {
       expect(console.log).on.nth(1).be.called.with(roll);
     });
@@ -57,7 +56,7 @@ describe('functions', function() {
     it('should log the length of the array', function() {
       expect(console.log).on.nth(2).be.called.with(10);
     });
-    it('should log the roll with the new student', function() {
+    it('should log the roll with James added', function() {
       roll.push('James');
       expect(console.log).on.nth(3).be.called.with(roll);
     });
@@ -65,7 +64,7 @@ describe('functions', function() {
       roll.splice(3,1);
       expect(console.log).on.nth(4).be.called.with(roll);
     });
-    it('should change Michael''s name to Mike', function() {
+    it("should change Michael's name to Mike", function() {
       roll[4] = 'Mike';
       expect(console.log).on.nth(5).be.called.with(roll);
     });
