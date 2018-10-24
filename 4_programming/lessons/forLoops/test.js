@@ -30,13 +30,6 @@ describe('functions', function() {
     sandbox.restore();
   });
 
-/*
-1. `countup()`: Uses a for loop to count up from 1 to 10, **logging** each value (using `console.log()`).
-2. `countdown(x)`: Uses a for loop to count down from `x` to 1, **logging** each value, then **logs** BLASTOFF!
-3. `goodDog()`: Creates the array `dogs = ['Spot', 'Rex', 'Bob', 'Rufus'];`, then loops through the array and **logs** a statement calling each dog a good boy. Specifically, it should say "[name] is a good boy!" for each name.
-4. `squareNumbers(x)`: Creates an array called `squares`, and loops through each number from 1 to `x`, adding its square to the array (use `Math.pow(value,2)` to get the square). When finished, **logs** the array.
-    - For example, if the function receives 4, it should log the array `[1, 4, 9, 16]`.
-*/
   describe('#countup()', function() {
     it('should log 1 to 10', function() {
       countup();
