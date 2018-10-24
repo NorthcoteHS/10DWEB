@@ -1,5 +1,4 @@
 // Initialise Mocha/Chai.
-console.log(document.currentScript.src);
 mocha.setup('bdd');
 mocha.traceIgnores = ['mocha.min.js', 'chai.min.js'];
 var expect = chai.expect;
@@ -24,6 +23,7 @@ describe('functions', function() {
 
   beforeEach(function() {
     sandbox.on(window, 'alert', () => 0);
+    sandbox.on(console, 'log', () => 0);
   });
 
   afterEach(function() {

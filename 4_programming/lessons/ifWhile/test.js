@@ -1,5 +1,4 @@
 // Initialise Mocha/Chai.
-console.log(document.currentScript.src);
 mocha.setup('bdd');
 mocha.traceIgnores = ['mocha.min.js', 'chai.min.js'];
 var expect = chai.expect;
