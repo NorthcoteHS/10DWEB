@@ -47,3 +47,19 @@ Your task is to create a simple calculator that asks the user for two numbers an
 - **Note:** all code should be commented and you should have no redundant code.
 
 Remember to commit each time you've made a major change to your code, and to push to GitHub frequently.
+
+## A note about plagiarism
+
+As you program this module (and others), you may be tempted to search online for a solution you can copy. For instance, code like this is easy to find:
+
+![Online Code](./online_code.png "Online Calculator Code")
+
+This is **not** an appropriate submission. Using a pre-built solution like this:
+
+  - doesn't solve the original problem description (enter two numbers and an operation)
+  - is much more complicated than your task
+  - doesn't use any of the techniques or conventions we have learned
+    - for instance, all of that "onclick" code should be inside functions in a `<script>` block
+  - doesn't result in you learning much, or applying the skills you have learned
+
+Please keep that in mind as you program. There is sometimes a fine line in coding between using resources and plagiarising - but what you create must be your own, it should use what you have learned, and you should understand it fully.
