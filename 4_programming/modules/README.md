@@ -40,6 +40,8 @@ If you would like to add ideas to the list, please ask your teacher how! We glad
     - standard options are "look" (and "look [object]"), "go [direction]", "take [object]", "use [object]", etc.
 - a "random clicker" game, which spawns images at random locations on the screen that you have to click on
     - you could make it interesting by giving a score based on a user's speed
+- a number guesser - the program picks a random number, and the user needs to guess it
+    - the program could give feedback like "Too high!" or "Too low!", and have a limit on number of guesses
 
 ## Tools
 
