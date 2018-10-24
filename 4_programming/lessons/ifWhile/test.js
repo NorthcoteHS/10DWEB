@@ -69,7 +69,7 @@ describe('ifWhile', function() {
     vals.forEach(function(val) {
       it('should log a count down from ' + val + ' to 0', function() {
         countdown(val);
-        expect(console.log).to.have.been.called.exactly(val+1).with(val).and.with(0);
+        expect(console.log).called.exactly(val+1).nth(1).with(val).and.nth(val+1).with(0);
       });
     });
   });
