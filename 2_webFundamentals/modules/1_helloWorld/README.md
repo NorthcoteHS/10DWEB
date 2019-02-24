@@ -6,16 +6,13 @@ Your goal is to write the HTML necessary to display "Hello, World!" to the user 
 
 ## Steps
 
-1. We will often use online resources to help us learn. To get started learning HTML, we are going to use [Codecademy](https://www.codecademy.com/learn/learn-html) and [W3Schools](https://www.w3schools.com/html/).
+1. Before starting this module, your teacher will ask you to complete some online learning tasks (e.g. Khan Academy or Codecademy).
 
-    - Begin the Codecademy tutorial above, and continue reading until you feel comfortable creating a basic HTML page with the text "Hello, World!"
-    - Use W3Schools to augment your learning and answer questions you might have in the Codecademy course.
-
-2. When you're ready, start by opening Brackets, making a new file (Ctrl-N), and saving it (Ctrl-S) as `helloWorld.html`.
+2. Start this module by opening Brackets, making a new file (Ctrl-N), and saving it (Ctrl-S) as `helloWorld.html`.
 
     - Brackets will automatically colour and style your code, but only **after** you have saved the file with an appropriate extension (`.html`).
 
-3. Fill out the basic HTML structure that you learned from the Codecademy tutorials.
+3. Every document has a basic HTML structure, sometimes called the "skeleton". You can find an example [here](http://htmlshell.com/) (note, the `meta` and `title` are not necessary, but are good practice). Fill out the basic HTML structure for your webpage.
 
     - Remember, every HTML page must start with `<!DOCTYPE html>` and have an `<html>` section with the a `<head>` and `<body>`.
     - Also remember that each HTML element (like `<html>`, `<head>`, `<body>`) needs a matching close tag when it ends! (`</html>`, etc)
@@ -23,3 +20,10 @@ Your goal is to write the HTML necessary to display "Hello, World!" to the user 
 4. Once you have the HTML structure filled out, put an `<h1>` element in the body with the message, "Hello, world!"
 
 Congratulations, you're done your first HTML program!
+
+## Resources
+
+- [W3Schools](https://www.w3schools.com/html/)
+- [Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
+- [Codecademy](https://www.codecademy.com/learn/learn-html)
+- [htmlshell.com](http://htmlshell.com/)
