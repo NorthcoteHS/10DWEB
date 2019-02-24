@@ -12,7 +12,7 @@ Your task is to recreate HelloCodi for the web. There are three main components 
 
 ## Steps
 
-1. Begin by downloading `template.html` to your working directory, and renaming it `HelloCodi.html`.
+1. Begin by downloading [`template.html`](/resources/template.html) (in `resources` on GitHub) to your working directory, and renaming it `HelloCodi.html`.
 
     - To download a file from GitHub, first click on its link, then **right-click on `Raw`** and "Save link as..."
 
