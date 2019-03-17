@@ -83,7 +83,7 @@ These exercises will **always** require you to:
     ```html
     <!DOCTYPE html>
     <!--
-      Prog: [program name.html]
+      File: [program name.html]
       Name: [Your Name]
       Date: [Date the program was written]
       Desc: [Brief, 1-sentence description.]
