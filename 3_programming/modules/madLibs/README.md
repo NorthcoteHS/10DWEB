@@ -12,15 +12,15 @@ Your job is to create a Mad Lib game. Create your own story or find one to use.
 
 1. Open Brackets. In your GH folder, **pull from upstream** to get the latest changes, then create a new file.
 
-  - Save the new file as `madLibs.html` in *this directory* (`GH/4_programming/modules/madLibs/`).
-  - Fill out the basic structure of the HTML from memory, or use a template or past project.
+    - Save the new file as `madLibs.html` in *this directory* (`GH/4_programming/modules/madLibs/`).
+    - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
 2. **HTML:** Add a title, instructions, a set of `<input>` elements with captions, and a button.
 
 3. **JavaScript:** Create a function that will execute when your button is clicked.
 
-  - Your function should retrieve the value of each `<input>` element and join them together into your pre-programmed story.
-  - When your function finishes, it should show the story, either by placing it into the HTML or displaying an alert.
+    - Your function should retrieve the value of each `<input>` element and join them together into your pre-programmed story.
+    - When your function finishes, it should show the story, either by placing it into the HTML or displaying an alert.
 
 4. Use the resources below to guide you through the process.
 

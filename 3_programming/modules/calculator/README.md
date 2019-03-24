@@ -6,8 +6,8 @@ Your task is to create a simple calculator that asks the user for two numbers an
 
 1. Open Brackets. In your GH folder, **pull from upstream** to get the latest changes, then create a new file.
 
-  - Save the new file as `calculator.html` in *this directory* (`GH/4_programming/modules/calculator/`).
-  - Fill out the basic structure of the HTML from memory, or use a template or past project.
+    - Save the new file as `calculator.html` in *this directory* (`GH/4_programming/modules/calculator/`).
+    - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
 2. Create three `<input>` elements to get the two numbers and the operation from the user.
 

@@ -6,8 +6,8 @@ Your task is to create a basic number guessing game. The computer generates a nu
 
 1. Open Brackets. In your GH folder, **pull from upstream** to get the latest changes, then create a new file.
 
-  - Save the new file as `numberGuesser.html` in *this directory* (`GH/4_programming/modules/numberGuesser/`).
-  - Fill out the basic structure of the HTML from memory, or use a template or past project.
+    - Save the new file as `numberGuesser.html` in *this directory* (`GH/4_programming/modules/numberGuesser/`).
+    - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
 2. Create one `<input>` element to get the user guess and a `<button>` element to submit the guess.
 

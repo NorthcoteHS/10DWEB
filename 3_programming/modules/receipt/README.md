@@ -40,8 +40,8 @@ Your task is to create a basic program to generate a receipt for products purcha
 
 1. Open Brackets. In your GH folder, **pull from upstream** to get the latest changes, then create a new file.
 
-  - Save the new file as `receipt.html` in *this directory* (`GH/4_programming/modules/receipt/`).
-  - Fill out the basic structure of the HTML from memory, or use a template or past project.
+    - Save the new file as `receipt.html` in *this directory* (`GH/4_programming/modules/receipt/`).
+    - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
 2. Create two `<input>` elements to get the item name and price, and two `<button>` elements to submit an item and to finish.
 
@@ -49,7 +49,7 @@ Your task is to create a basic program to generate a receipt for products purcha
 
 4. In your JavaScript, you will need to create two functions (for your Submit and Finish buttons), and two arrays (for a list of item names and prices).
 
-  - Your arrays need to live **outside** your functions, at the start of your script block:
+    - Your arrays need to live **outside** your functions, at the start of your script block:
     ```html
     <script>
       var array1 = [];
@@ -61,8 +61,8 @@ Your task is to create a basic program to generate a receipt for products purcha
       // ...
     </script>
     ```
-  - If you define your arrays at the start of your script, they are still available inside your functions, but will maintain their values between function calls.
-  - (This is called "scope". Any variables you define inside your functions disappear as soon as the function finishes.)
+    - If you define your arrays at the start of your script, they are still available inside your functions, but will maintain their values between function calls.
+    - (This is called "scope". Any variables you define inside your functions disappear as soon as the function finishes.)
 
 5. Inside your Submit function, get the values of the two `<input>`s and append them to the corresponding arrays.
 
@@ -70,10 +70,10 @@ Your task is to create a basic program to generate a receipt for products purcha
 
 7. Inside your Finish function, you will need to add each item to the output display.
 
-  - One option: create an empty string `var str = ''`, then use a for loop to loop through each item and add its name and price to the string (like `str = str + 'New text to add'`).
-  - To add a new line between each entry, use the HTML line break `<br>` - for instance, `str = str + 'New text to add<br>'`.
-  - When the for loop finishes, add the final lines with the total price.
-  - Then change the `innerHTML` of your output `<div>` to equal the string you've just created.
+    - One option: create an empty string `var str = ''`, then use a for loop to loop through each item and add its name and price to the string (like `str = str + 'New text to add'`).
+    - To add a new line between each entry, use the HTML line break `<br>` - for instance, `str = str + 'New text to add<br>'`.
+    - When the for loop finishes, add the final lines with the total price.
+    - Then change the `innerHTML` of your output `<div>` to equal the string you've just created.
 
 8. Use the resources below if you get stuck!
 
