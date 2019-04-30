@@ -130,7 +130,7 @@ There's plenty more that can be done with arrays! Check out the [JS arrays intro
 
 ## Exercises
 
-In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/4_programming/lessons/arrays/`), open `arrays.html`, and create the following functions in the `<script>` block:
+In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/3_programming/lessons/arrays/`), open `arrays.html`, and create the following functions in the `<script>` block:
 
 1. `classRoll()`: This function has multiple steps. It should:
     - Create the following array: `roll = ['Jessica', 'Emily', 'Jordan', 'Kayley', 'Bruce', 'Michael', 'Everett', 'Lisa', 'Sam', 'Noah'];`

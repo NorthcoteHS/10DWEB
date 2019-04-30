@@ -79,7 +79,7 @@ This program will never end, and it would cause your program to crash. **Do not 
 
 ## Exercises
 
-In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/4_programming/lessons/ifWhile/`), open `ifWhile.html`, and create the following functions in the `<script>` block:
+In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/3_programming/lessons/ifWhile/`), open `ifWhile.html`, and create the following functions in the `<script>` block:
 
 1. `max(a,b)`: **Returns** the larger of the two values, using an if statement.
 2. `max3(a,b,c)`: **Returns** the largest of the three values, using nested if statements.

@@ -68,7 +68,7 @@ Here we let `i` start at 0 and count up until one less than `shopping.length`, u
 
 ## Exercises
 
-In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/4_programming/lessons/forLoops/`), open `forLoops.html`, and create the following functions in the `<script>` block:
+In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/3_programming/lessons/forLoops/`), open `forLoops.html`, and create the following functions in the `<script>` block:
 
 1. `countup()`: Uses a for loop to count up from 1 to 10, **logging** each value (using `console.log()`).
 2. `countdown(x)`: Uses a for loop to count down from `x` to 1, **logging** each value, then **logs** BLASTOFF!

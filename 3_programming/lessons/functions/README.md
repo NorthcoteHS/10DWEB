@@ -51,7 +51,7 @@ Good luck and have fun!
 
 ## Exercises
 
-In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/4_programming/lessons/functions/`), open `functions.html`, and create the following functions in the `<script>` block:
+In your GH folder, **pull from upstream** to get the latest changes. Then find *this folder* (`GH/3_programming/lessons/functions/`), open `functions.html`, and create the following functions in the `<script>` block:
 
 1. `hooray()`: Displays "Hooray!" in an alert box.
 2. `subtract(x,y)`: Takes two numbers as input, and returns their difference.
