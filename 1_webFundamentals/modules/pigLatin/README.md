@@ -54,6 +54,7 @@ Your program should be able to translate single words to Pig Latin. As an extens
 | String manipulation | <ul><li>[JS string methods (W3Schools)](https://www.w3schools.com/js/js_string_methods.asp) - especially `slice()`</li><li>to get the first letter, try `str[0]` or `str.charAt(0)`</li><li>[JS string length](https://www.w3schools.com/jsref/jsref_length_string.asp)</li><li>to work on each word separately, try `str.split(' ')`</li></ul> |
 | For loops   | <ul><li>[JS for loop (W3Schools)](https://www.w3schools.com/js/js_loop_for.asp)</li><li>[JS break (to exit a loop)](https://www.w3schools.com/js/js_break.asp)</li></ul> |
 | Displaying results | <ul><li>[JavaScript popup boxes (alert) (W3Schools)](https://www.w3schools.com/js/js_popup.asp)</li><li>[DOM innerHTML property](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)</li></ul> |
+| General     | <ul><li>[StackOverflow](https://stackoverflow.com/)</li><li>[W3Schools](https://www.w3schools.com/)</li><li>[CSS-Tricks](https://css-tricks.com/)</li><li>[Course Resources](/resources/)</li></ul> |
 
 ## Assessment
 
