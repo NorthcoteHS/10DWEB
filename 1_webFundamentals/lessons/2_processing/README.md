@@ -116,7 +116,7 @@ Make a new folder for this lesson, e.g. `processing`, and make the following HTM
     - Combine all three strings again, but in reverse order (3 2 1) and all lower-case, and alert it.
     - Alert the combined length of all three strings (as a single number).
 3. `funMath.html`: Ask the user for 5 numbers, then:
-    - Make sure to convert each one from a string into a number!
+    - Make sure to convert each one from a string into a number! (will you use `parseInt()` or `parseFloat()`?)
     - Assuming the numbers are named `a` `b` `c` `d` `e` (they can be named differently):
     - Alert `a + b + c + d + e`
     - Alert `a + b - c / d * e`
