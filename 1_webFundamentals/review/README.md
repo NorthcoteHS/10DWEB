@@ -143,11 +143,11 @@ You can access each item using its "index", or position number.
 For example, the code below creates a list of cars and displays the first, third, and last cars:
 
 ```js
-// Notice counting starts from 0, and -1 is a special index for "last".
+// Notice counting starts from 0.
 var cars = ['Lexus', 'Mazda', 'Toyota', 'Audi', 'Subaru', 'Porsche'];
 alert(cars[0]);
 alert(cars[2]);
-alert(cars[-1]);
+alert(cars[cars.length - 1]);
 ```
 
 ## If statements
