@@ -14,6 +14,7 @@ In this task, you are going to begin learning how to **style** your webpages usi
 
     - Save the new file as `helloCss.inline.html` (note the `.inline` part of the filename!).
     - Fill out the basic structure of the HTML from memory, or use a template or past project.
+    - Don't forget to include a `<head></head>` before the `<body>` - we'll need it later!
 
 2. In the HTML body, create a div with a custom style: `<div style="background-color: red;"></div>`
 
