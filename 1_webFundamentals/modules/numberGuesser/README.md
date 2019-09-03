@@ -1,6 +1,9 @@
 # numberGuesser
 
-Your task is to create a basic number guessing game. The computer generates a number and the player has to guess it. The computer then responds with either higher or lower.
+I'm thinking of a number between 1 and 100. Can you guess it?
+
+Your job is to create a program that "thinks" of a number and lets the user guess!
+With each guess, you should tell the user whether they're too high, too low, or correct.
 
 ## Steps
 
@@ -49,9 +52,10 @@ For HTML versions (using `<input>`, buttons, and `.innerHTML`):
 
 | Level  | Expectations |
 |--------|--------------|
-| Bronze   | Gets the users guess and responds either higher or lower. |
-| Silver   | Has a victory screen. Gives the computers response in a more advanced way |
-| Gold     | Implements one or more of the challenges. |
+| Bronze | Hard-coded number, lets the user guess once |
+| Silver | Random number and lets the user guess repeatedly |
+| Gold   | Has a score (based on # of guesses) |
+| Diamond | Lets the user reset with a new number, choose different difficulties, or any other creative ideas! |
 
 - **Note:** all code should be commented and you should have no redundant code.
 
