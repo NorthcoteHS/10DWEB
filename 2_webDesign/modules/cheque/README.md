@@ -30,10 +30,18 @@ Your task is to use HTML and CSS to create a realistic reproduction of a cheque.
     - left, top, width, and height for each text
     - some text may need borders or underlining
 
-5. Use the `positionAbsolute.html` example for help with using `position: absolute;` and related styles.
+5. Use the [positionAbsolute.html](./positionAbsolute.html) example (in this folder) for help with using `position: absolute;` and related styles.
 
-6. Try to get your cheque to look as close as possible to the original! Here's an example (created in HTML/CSS):
+6. You may use [chequeBackground.jpg](./chequeBackground.jpg) as a background image if you like.
+
+7. Try to get your cheque to look as close as possible to the original! Here's an example (created in HTML/CSS):
 
 ![Example](./example.jpg "Example")
 
 [//]: # (Background source: https://www.chequeprint.ca/wp-content/uploads/2015/03/Premium_BLANK_Green_Stock_Cheque_Print-600x246.jpg)
+
+## Assessment
+
+- **Note:** all code should be commented and you should have no redundant code.
+
+Remember to commit each time you've made a major change to your code, and to push to GitHub frequently.
