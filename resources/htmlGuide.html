@@ -7,6 +7,9 @@
         <style type="text/css">
             /* Your CSS goes here */
             table {
+                border-collapse: collapse;
+            }
+            table td, table th {
                 /* border-collapse: collapse; */
                 border: 1px solid black;
             }
@@ -99,7 +102,10 @@
         <!-- Tables -->
         <h1 class="header">Tables</h1>
 
+        <p><em><strong>Note:</strong> Tables do not have borders (lines between cells) by default. These must be added using CSS.</em></p>
+
         <!-- Simple table -->
+        <h3>Simple table</h3>
         <table>
             <tr>
                 <td>Row 1 cell 1</td>
@@ -112,6 +118,7 @@
         </table>
 
         <!-- Advanced table -->
+        <h3>Advanced table</h3>
         <table>
             <caption>Table caption</caption>
             <colgroup>
