@@ -51,7 +51,9 @@ See the [W3Schools HTML Element Reference](https://www.w3schools.com/tags/) for 
     - `<table>`, with `<tr>`, `<th>`, and `<td>` elements inside
     - group any elements that belong together by putting them into a `<div>`
 
-4. The goal of this task is to learn the elements - your webpage doesn't have to make sense, and the elements don't need to be related to each other. But do make sure to put *some* text into every element that needs text!
+4. For each element above, search the htmlGuide to see how it works before making your own!
+
+5. The goal of this task is to learn the elements - your webpage doesn't have to make sense, and the elements don't need to be related to each other. But do make sure to put *some* text into every element that needs text!
 
 Congratulations, you've now used many of the most common HTML elements!
 
