@@ -1,4 +1,4 @@
-# helloCss
+# css
 
 Web programming isn't only about HTML - in fact, there are three main components to any "static" webpage:
 
@@ -10,21 +10,19 @@ In this task, you are going to begin learning how to **style** your webpages usi
 
 ## Steps (Inline version)
 
-1. Before attempting this task, you should first complete [helloWorld](../1_helloWorld/) and [helloHtml](../2_helloHtml/).
+1. Always start by opening Brackets, creating a new file, and saving it.
 
-2. Create a new file and save it as `helloCss.inline.html` (note the `.inline` part of the filename!).
+    - Save the new file as `helloCss.inline.html` (note the `.inline` part of the filename!).
+    - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
-    - In the file, create the basic HTML structure, with `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
-    - Do **not** use a template file for this task - we want you to practise the HTML structure!
-
-3. In the HTML body, create a div with a custom style: `<div style="background-color: red;"></div>`
+2. In the HTML body, create a div with a custom style: `<div style="background-color: red;"></div>`
 
     - Notice the syntax! We added an "attribute" to the element called `style`, by putting `style=""` inside the opening `<div>` statement.
     - Whenever you define an attribute (like style), the value of the attribute goes in quotes `""`.
     - In this case we have changed the div's `background-color` (notice it's the American spelling "color", not "colour") to blue.
     - We ended the style definition with a semicolon (`;`).
 
-4. Inside the `<div>`, create a series of `<p>` elements with *any* text in them, and with the following styles:
+3. Inside the `<div>`, create a series of `<p>` elements with *any* text in them, and with the following styles:
 
     - `color: blue;` (Hint: Your result should look like `<p style="color: blue;">Blue text!</p>`)
     - `background-color: green;` (Notice how this interacts with the div's `background-color`)
@@ -40,7 +38,7 @@ In this task, you are going to begin learning how to **style** your webpages usi
     - `text-decoration: line-through;`
     - `unicode-bidi: bidi-override; direction: rtl;` (Notice we're changing two styles at once)
 
-5. Now modify your main div to have all of these styles (and also keep its red background):
+4. Now modify your main div to have all of these styles (and also keep its red background):
 
     - (To change multiple styles at once, list all the changes in the **same** `style=""` statement, like `style="background-color: red; width: 100px;"`)
     - `width: 200px;`
@@ -50,7 +48,7 @@ In this task, you are going to begin learning how to **style** your webpages usi
     - `overflow-y: scroll;`
     - This has changed the size of the div and the layout of its content. With each style you add, look at your div and see how it changes!
 
-6. Continue adding more styles to your div:
+5. Continue adding more styles to your div:
 
     - `position: absolute;`
     - `left: 80px;`
@@ -59,7 +57,7 @@ In this task, you are going to begin learning how to **style** your webpages usi
 
 That's it for the **inline version** of this task (but we're not all done)! It should look something like this:
 
-![helloCss example](./3_helloCss.png "helloCss example")
+![helloCss example](./css.png "helloCss example")
 
 Now we're going to take a couple steps to **improve** our CSS.
 
