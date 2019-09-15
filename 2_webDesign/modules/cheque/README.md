@@ -12,10 +12,10 @@ Your task is to use HTML and CSS to create a realistic reproduction of a cheque.
 
 1. Before attempting this task, you should first complete [helloHtml](../2_helloHtml/) and [helloCss](../3_helloCss/).
 
-2. Create a new file and save it as `cheque.html`.
+2. Always start by opening Brackets, creating a new file, and saving it.
 
-    - In the file, create the basic HTML structure, with `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
-    - Do **not** use a template file for this task - we want you to practise the HTML structure!
+    - Save the new file as `cheque.html`.
+    - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
 3. Create the HTML contents of the cheque, *ignoring* styling for now. You should have:
 
