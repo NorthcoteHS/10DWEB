@@ -34,17 +34,17 @@ See the [W3Schools HTML Element Reference](https://www.w3schools.com/tags/) for 
     - Save the new file as `helloHtml.html`.
     - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
-2. Open `htmlGuide.html` (from this course's resources folder) as a reference:
+2. **Don't skip this step!** Open `htmlGuide.html` (from this course's resources folder) as a reference:
 
-    - [htmlGuide source code](/resources/htmlGuide.html)
-    - [htmlGuide in action](https://northcotehs.github.io/10DWEB/resources/htmlGuide.html)
+    - [htmlGuide source code](/resources/htmlGuide.html) (Open in new tab)
+    - [htmlGuide in action](https://northcotehs.github.io/10DWEB/resources/htmlGuide.html) (Open in new tab)
     - Open both, and compare the code to the result!
 
 3. Your task is to create *any* webpage you like, making sure you use at least one of each of these elements:
 
     - `<h1>`
     - `<p>`
-    - `<a>` with an appropriate `href`
+    - `<a>` (anchor tag) with an appropriate `href` - search `htmlGuide` for an example!
     - `<button>` (it doesn't have to "do" anything when clicked)
     - `<ul>` or `<ol>`, with `<li>` elements inside
     - `<select>`, with `<option>` elements inside
