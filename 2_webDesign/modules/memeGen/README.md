@@ -11,26 +11,24 @@ Your task is to make your own generator!
 
 ## Steps
 
-1. Before attempting this task, you should first complete [helloHtml](../2_helloHtml/) and [helloCss](../3_helloCss/).
-
-2. Always start by opening Brackets, creating a new file, and saving it.
+1. Always start by opening Brackets, creating a new file, and saving it.
 
     - Save the new file as `memeGen.html`.
     - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
-3. Pick your favourite meme, download the source image, and put it in the same folder as your project.
+2. Pick your favourite meme, download the source image, and put it in the same folder as your project.
 
-4. Create an image element using the meme as its `src`, and style it to the right size.
+3. Create an image element using the meme as its `src`, and style it to the right size.
 
-5. Create text elements (`<p>`? `<h1>`? your choice!) and use the `position: absolute` style to put them where you want on the image.
+4. Create text elements (`<p>`? `<h1>`? your choice!) and use the `position: absolute` style to put them where you want on the image.
 
     - See the [positionAbsolute.html](./positionAbsolute.html) for an example of absolute position!
 
-6. Get the text from the user, using `<input>` or `prompt()`.
+5. Get the text from the user, using `<input>` or `prompt()`.
 
-7. Update the text elements' contents using `.innerHTML`.
+6. Update the text elements' contents using `.innerHTML`.
 
-8. Use the resources below to guide you through the process.
+7. Use the resources below to guide you through the process.
 
 
 ## Resources

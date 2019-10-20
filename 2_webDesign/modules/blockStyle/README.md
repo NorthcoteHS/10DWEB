@@ -6,27 +6,25 @@ Your task is to create a program that shows an HTML block (div), and lets the *u
 
 ## Steps
 
-1. Before attempting this task, you should first complete [helloHtml](../2_helloHtml/) and [helloCss](../3_helloCss/).
-
-2. Always start by opening Brackets, creating a new file, and saving it.
+1. Always start by opening Brackets, creating a new file, and saving it.
 
     - Save the new file as `blockStyle.html`.
     - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
-3. Create the HTML:
+2. Create the HTML:
 
     - one `<div>` with an ID so it can be re-styled
     - optionally, several `<input>`s and a `<button>` for the user to interact with
 
-4. Ask the user what background-color, width, and height to make the block (either using `<input>` or `prompt()`).
+3. Ask the user what background-color, width, and height to make the block (either using `<input>` or `prompt()`).
 
-5. Get the user's response, and update the style of the element.
+4. Get the user's response, and update the style of the element.
 
     - To interact with the element, you will need to "get" the element in JS: `document.getElementById('yourID')`
     - You can modify the element's style like so: `document.getElementById('yourID').style.width = '50px';`
     - Note that width and height always require units like `px` (pixels) or `cm` (centimetres)
 
-6. Use the resources below to guide you through the process.
+5. Use the resources below to guide you through the process.
 
 ## Resources
 
