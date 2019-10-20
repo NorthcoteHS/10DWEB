@@ -58,7 +58,7 @@ Your task is to create a program that will encode a message (input by the user) 
 | For loops   | <ul><li>[JS for loop (W3Schools)](https://www.w3schools.com/js/js_loop_for.asp)</li><li>[Looping through each character in a string (StackOverflow)](https://stackoverflow.com/a/1967132/4080966)</li></ul> |
 | Displaying results | <ul><li>[JavaScript popup boxes (alert) (W3Schools)](https://www.w3schools.com/js/js_popup.asp)</li><li>[DOM innerHTML property](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)</li></ul> |
 
-## Extensions
+## Extension
 
 - Try creating a decoder - input a message in code and use the program to determine the original message. Much harder if you don't know the offset!
 
