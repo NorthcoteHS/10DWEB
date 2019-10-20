@@ -12,14 +12,14 @@ Your task is to create a program that will encode a message (input by the user) 
 
 ## Steps
 
-1. Open Brackets. In your GH folder, **pull from upstream** to get the latest changes, then create a new file.
+1. Always start by opening Brackets, creating a new file, and saving it.
 
-    - Save the new file as `cipher.html` in *this directory* (`GH/4_programming/modules/cipher/`).
+    - Save the new file as `cipher.html`.
     - Fill out the basic structure of the HTML from memory, or use a template or past project.
 
-2. Create an `<input>` element to get the phrase from the user.
+2. Use `prompt()` or `<input>` to get a phrase from the user.
 
-3. Create a button to perform the correct operation.
+3. If using HTML (`<input>` etc.), create a button to perform the correct operation.
 
     - To make the button "do" something, you will need to add an `onclick` attribute and write a JavaScript function for it to call.
     - In your JS function, you will need to get the contents of the input and perform the logic to convert each letter.
@@ -39,7 +39,7 @@ Your task is to create a program that will encode a message (input by the user) 
 
 6. You're done the basic task! Now try adding features, for instance:
 
-    - Translate automatically (as you type)!
+    - Translate automatically (as you type in an HTML `<input>`)!
     - Move the "cipher" logic into its own function that receives a string as input and returns a string as output.
     - Add a "decode" option that lets you decode text that has been encoded already.
     - Let the user choose the number of characters to shift by.
